@@ -5,6 +5,7 @@ import org.springframework.web.bind.annotation.*;
 @RestController
 @RequestMapping("api/v1/lecturers/full-time")
 @CrossOrigin
+
 public class FullTimeLecturerHttpController {
     @PatchMapping("/ranks")
     public void arrangeFullTimeLecturerOrder(){
